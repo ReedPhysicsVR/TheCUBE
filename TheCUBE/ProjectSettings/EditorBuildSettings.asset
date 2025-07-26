@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CUBE.unity
+    guid: 67b26a880850ced468f89303948d956c
+  - enabled: 0
+    path: Assets/Scenes/CUBE.unity
+    guid: 67b26a880850ced468f89303948d956c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d67481edb031d724c806a637f854b70f, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 050eb4b4f401c2b40a96596e2e96ca3e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ae70606f41a45954386630118cd974f3, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4765cf8815dd48d4e943df2ad4c411f3, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2926d748daf41654ab4c64392ae60095, type: 2}
