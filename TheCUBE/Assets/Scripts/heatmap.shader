@@ -11,8 +11,6 @@ Shader "Unlit/heatmap"
         _MaxDistance ("Top Distance", float) = 0.0
         _FieldScale ("Field Scaler", float ) = 1.0
         _SpeedOfLight ("Speed of light", float) = 10.0
-        _FieldLineSpacing ("Field Line Spacing", float) = 1.0
-        _FieldLineWidth("Field Line Width", float) = 0.01
     }
     SubShader
     {
@@ -82,8 +80,6 @@ Shader "Unlit/heatmap"
             float _FieldScale;
             fixed4 _ColorArr[7];
             float _OrderOfMag[7];
-            float _FieldLineSpacing;
-            float _FieldLineWidth;
 
             fixed4 frag (v2f i) : SV_Target
             {

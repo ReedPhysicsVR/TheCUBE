@@ -6,6 +6,7 @@ using UnityEngine;
 public class PointBarrier : MonoBehaviour
 {
     private Vector3 normalDirection;
+    
     void Start()
     {
         normalDirection = GetComponentInParent<Transform>().up;
