@@ -12,7 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - ACCELERATION_FIELD
+  - FULL_FIELD
   - SLOW_SPEED
   - STEREO_INSTANCING_ON
   m_InvalidKeywords:
@@ -65,7 +65,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints:
     - _FieldLineMode: 1
-    - _FieldType: 2
+    - _FieldType: 0
     - _MagNotDot: 0
     m_Floats:
     - _BumpScale: 1
@@ -101,8 +101,8 @@ Material:
     - _Color6: {r: 0.5686274, g: 0.7490196, b: 0.8588236, a: 1}
     - _Color7: {r: 0.27058816, g: 0.45882356, b: 0.7058823, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SphereAcceleration: {r: -0, g: -17.450256, b: -0, a: 0}
+    - _SphereAcceleration: {r: 0, g: 0, b: 0, a: 0}
     - _SphereDistance: {r: -1.44, g: -0.03000021, b: -0.80999994, a: 0}
-    - _SpherePosition: {r: 2.2, g: 4.4965034, b: 2.2, a: 0}
-    - _SphereVelocity: {r: 0, g: 0.34954843, b: 0, a: 0}
+    - _SpherePosition: {r: 0.8, g: 3, b: 0.8, a: 0}
+    - _SphereVelocity: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
